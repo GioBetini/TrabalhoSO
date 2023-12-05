@@ -78,7 +78,6 @@ public class TigerKingController implements IArquivosTigerKing {
         for (int i = 0; i <= data.length - 1; i++) {
                 if (data[i].contains("}")) {
                     view[j] = data[i].substring(0,data[i].length()-1);
-                    System.out.println(view[j]);
                     j += 1;
                 }
             }
